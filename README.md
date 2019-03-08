@@ -59,6 +59,12 @@ Code configuration is handled by CMake. CMake variable `CMAKE_INSTALL_PREFIX` wi
 
 To build run `make`, to install `make install` which accepts variable `DESTDIR` as usual.
 
+* mkdir build
+* cd build
+* cmake -DCMAKE\_INSTALL\_PREFIX=/usr ..
+* make
+* sudo make install
+
 ### Binary packages
 
 The library is provided by all major Linux distributions like Arch Linux, Debian, Fedora and openSUSE.
